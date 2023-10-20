@@ -9,20 +9,19 @@
 #### **************************************** ####
 ##################################################
 
+#This is a for loop example
+# we will be using range function to iterate over the loop
+print("#"*50)
+for i in range(5):  # Loop from 0 to 4 (5 is not included)
+    print("Iteration", i)
+    
+print("#"*50)
+# This is another for loop example
+# We will be using the range function to iterate over the loop
 
-#Lambda functions, also known as anonymous functions, are concise, small, and often used for simple operations. 
-# They are typically used when you need a short function for a short period of time. 
+listofnames = ["John", "Jane", "Jack", "Jim", "Jill"]
 
-# Define a lambda function to square a number
-square = lambda x: x ** 2
+for i in range(len(listofnames)):  # Loop from 0 to 4 (5 is not included)
+    print("Iteration", listofnames[i])
 
-# Use the lambda function
-result = square(5)
-print(result)  
-
-# Another lambda function to add two numbers
-add = lambda x, y: x + y
-
-# Use the lambda function
-result = add(3, 4)
-print(result)  
+    

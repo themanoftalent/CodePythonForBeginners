@@ -8,3 +8,23 @@
 #### @Project : python-app                    ####
 #### **************************************** ####
 ##################################################
+
+
+
+# Initialize the sum to 0
+sum = 0
+
+# Start an infinite loop
+while True:
+    # Get the input from the user
+    number = int(input("Enter a number: "))
+
+    # If the number is 0, break the loop
+    if number == 0:
+        break
+
+    # Add the number to the sum
+    sum += number
+    
+# Print the sum
+print("The sum is", sum)
