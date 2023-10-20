@@ -1,0 +1,31 @@
+##################################################
+#### **************************************** ####
+#### !/usr/bin/python3                        ####
+#### -*- coding: utf-8 -*-                    ####
+#### @Time    : 2023/20/10 11:40              ####
+#### @Author  : themanoftalent                ####
+#### @Site:https://github.com/themanoftalent  ####
+#### @Project : python-app                    ####
+#### **************************************** ####
+##################################################
+
+class Enemy:
+    life = 3
+    
+    def attack(self):
+        print("ouch!")
+        self.life -=1
+    
+    def checkLife(self):
+        if self.life <= 0:
+            print("I am dead")
+        else:
+            print(str(self.life) + " life left")
+
+enemy1 = Enemy()
+enemy2 = Enemy()
+
+enemy1.attack()
+enemy1.attack()
+enemy1.checkLife()
+enemy2.checkLife()
