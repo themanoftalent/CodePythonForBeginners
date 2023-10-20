@@ -1,10 +1,10 @@
---All about Python Programming--
+                                     --All about Python Programming--
 
 ### What is Python?
 
 **Title**: What is Python?
 
-**Description**: This README file provides an introduction to Python, a high-level programming language known for its simplicity, readability, and versatility. Whether you're new to programming or an experienced developer, Python has something to offer.
+**Description**: This README file introduces Python, a high-level programming language known for its simplicity, readability, and versatility. Whether you're new to programming or an experienced developer, Python has something to offer.
 
 **Content**:
 ```
@@ -16,7 +16,7 @@ Python is a popular and versatile programming language known for its readability
 
 - **Readability**: Python's code is easy to read, which makes it an excellent choice for new programmers.
 - **Versatility**: Python can be used for web development, data analysis, machine learning, scientific computing, and more.
-- **Large Standard Library**: Python comes with a large standard library that supports various tasks and modules.
+- **Large Standard Library**: Python has a large standard library supporting various tasks and modules.
 - **Community Support**: Python has a vibrant community and extensive documentation.
 
 ## Why Python?
